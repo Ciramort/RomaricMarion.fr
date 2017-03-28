@@ -32,10 +32,10 @@ portfolio:
   - title: "Site personnel"
     description: World Wide Web
     date: "Mars 2015"
-    img: horloge.jpg
-    content: "<i>(Plus d'informations bientôt)</i>"
-    tags: Grav, CSS, JavaScript, jQuery
-    details:
+    img: romaricmarion-fr.jpg
+    content: "<i>Mon site personnel. Vous êtes en train de naviguer dessus actuellement</i>"
+    tags: Grav, CSS, Twig, JavaScript, jQuery
+    details: https://github.com/Ciramort/RomaricMarion.fr
 ---
 
 <!--Développement d’un jeu de type « shoot’em up ». Un site vitrine du jeu a aussi été développé. Le lien entre ces deux parties étant l’affichage des scores du jeu sur le site web. Équipe de 6 personnes-->
