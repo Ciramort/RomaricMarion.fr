@@ -1,0 +1,47 @@
+timezone: 'Europe/Paris'
+
+languages:
+  supported:
+    - fr
+  include_default_lang: false
+
+pages:
+  theme: ceewee
+  process:
+    markdown: true
+    twig: true
+  markdown:
+    extra: true
+
+cache:
+  enabled: false
+  check:
+    method: file
+  driver: auto
+  prefix: 'g'
+
+twig:
+  cache: false
+  debug: false
+  auto_reload: true
+  autoescape: false
+
+assets:
+  css_pipeline: true
+  css_minify: true
+  css_rewrite: true
+  js_pipeline: true
+  js_minify: true
+
+images:
+  default_image_quality: 100
+
+debugger:
+  enabled: false
+  twig: false
+  shutdown:
+    close_connection: true
+
+errors:
+  display: false
+  log: true

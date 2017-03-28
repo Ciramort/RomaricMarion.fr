@@ -1,0 +1,12 @@
+# Grav
+.sass-cache
+composer.lock
+cache/*
+assets/*
+logs/*
+images/*
+user/data/*
+
+# OS
+.DS_Store*
+Thumbs.db

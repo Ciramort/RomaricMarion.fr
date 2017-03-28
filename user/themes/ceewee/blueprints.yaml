@@ -1,0 +1,15 @@
+name: Ceewee
+version: 0.4.0
+description: "Extension de Ceevee (fr)"
+icon: group
+author:
+  name: Romaric MARION
+  email: romaric.marion@gmail.com
+  url: http://romaricmarion.fr
+homepage: https://github.com/Helmasaur
+bugs: https://github.com/Helmasaur
+license: CC BY 3.0
+
+form:
+  validation: strict
+  fields:

@@ -1,0 +1,21 @@
+title: Romaric MARION
+author:
+  name: Romaric MARION
+metadata:
+    description: 'Site personnel de Romaric MARION.'
+
+# Header customization
+header:
+  title: Romaric MARION
+  description: Je suis un <span>développeur</span> et <span>intégrateur</span> web, originaire de Bretagne et résidant à Montmartre (Paris 18<sup>e</sup>). J'ai aussi des connaissances dans le <span>graphisme</span> et le <span>webdesign</span>. Faites défiler la page pour en connaître davantage sur <span>moi</span>.
+copyright:
+    - line: Version <a class="popup-with-zoom-anim" href="#changelog">0.5</a>
+    - line: <a class="popup-with-zoom-anim" href="#licences">Licences</a>
+    - line: <a class="popup-with-zoom-anim" href="#a-propos">À propos</a>
+social:
+#- url: "callto://+33"
+#  icon: phone
+- url: "#contact"
+  icon: envelope
+- url: "https://github.com/Ciramort"
+  icon: github

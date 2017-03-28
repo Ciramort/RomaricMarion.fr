@@ -1,0 +1,239 @@
+a,
+a:visited,
+.stats-tabs li a:hover,
+dt,
+.pagination .current,
+.pagination .current:hover,
+header .social li a:hover,
+header .scrolldown a:hover,
+ul#nav li.current a,
+#presentation a:hover,
+#presentation a:focus,
+#resume a,
+#resume a:visited,
+.popup-modal a:hover,
+#contact a,
+#contact a:visited,
+#contact span.required,
+#message-success,
+footer .copyright li:before,
+footer .social-links li
+{
+    color: #673ab7;
+}
+
+#resume a:hover,
+#resume a:focus
+{
+    color: #313131;
+}
+
+#resume h1 span
+{
+    border-bottom-color: #673ab7;
+}
+
+#contact select:focus,
+#go-top a:hover,
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus,
+#nav-wrap > a
+{
+    background-color: #673ab7;
+}
+
+.button,
+.button:visited,
+button,
+input[type='submit'],
+input[type='reset'],
+input[type='button']
+{
+    background: #673ab7;
+}
+
+.portfolio-item .portfolio-item-meta .portfolio-item-date
+{
+    font-style: italic;
+
+    padding-top: 125px;
+
+    text-align: right;
+}
+
+#a-propos,
+#changelog,
+#licences
+{
+    position: relative;
+
+    max-width: 70%;
+    margin: 40px auto;
+    padding: 20px 30px;
+
+    text-align: left;
+
+    background: #ebeeee;
+}
+
+sup
+{
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.mfp-zoom-in .zoom-anim-dialog
+{
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+    -webkit-transform: scale(.8);
+       -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+         -o-transform: scale(.8);
+            transform: scale(.8);
+
+    opacity: 0;
+}
+
+/* animate in */
+.mfp-zoom-in.mfp-ready .zoom-anim-dialog
+{
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+
+    opacity: 1;
+}
+
+/* animate out */
+.mfp-zoom-in.mfp-removing .zoom-anim-dialog
+{
+    -webkit-transform: scale(.8);
+       -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+         -o-transform: scale(.8);
+            transform: scale(.8);
+
+    opacity: 0;
+}
+
+/* Dark overlay, start state */
+.mfp-zoom-in.mfp-bg
+{
+    -webkit-transition: opacity .3s ease-out;
+       -moz-transition: opacity .3s ease-out;
+         -o-transition: opacity .3s ease-out;
+            transition: opacity .3s ease-out;
+
+    opacity: 0;
+}
+/* animate in */
+.mfp-zoom-in.mfp-ready.mfp-bg
+{
+    opacity: .8;
+}
+/* animate out */
+.mfp-zoom-in.mfp-removing.mfp-bg
+{
+    opacity: 0;
+}
+
+.html5 {
+	width: 80%;
+	-moz-animation: html5 2s ease;
+	-webkit-animation: html5 2s ease;
+}
+@-moz-keyframes html5 {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+@-webkit-keyframes html5 {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+
+.php {
+	width: 60%;
+	-moz-animation: php 2s ease;
+	-webkit-animation: php 2s ease;
+}
+@-moz-keyframes php {
+	0%   { width: 0px;  }
+	100% { width: 60%;  }
+}
+@-webkit-keyframes php {
+	0%   { width: 0px;  }
+	100% { width: 60%;  }
+}
+
+.javascript {
+	width: 45%;
+	-moz-animation: javascript 2s ease;
+	-webkit-animation: javascript 2s ease;
+}
+@-moz-keyframes javascript {
+	0%   { width: 0px;  }
+	100% { width: 45%;  }
+}
+@-webkit-keyframes javascript {
+	0%   { width: 0px;  }
+	100% { width: 45%;  }
+}
+
+.cms {
+	width: 75%;
+	-moz-animation: cms 2s ease;
+	-webkit-animation: cms 2s ease;
+}
+@-moz-keyframes cms {
+	0%   { width: 0px;  }
+	100% { width: 75%;  }
+}
+@-webkit-keyframes cms {
+	0%   { width: 0px;  }
+	100% { width: 75%;  }
+}
+
+.photoshop {
+	width: 60%;
+	-moz-animation: photoshop 2s ease;
+	-webkit-animation: photoshop 2s ease;
+}
+@-moz-keyframes photoshop {
+	0%   { width: 0px;  }
+	100% { width: 60%;  }
+}
+@-webkit-keyframes photoshop {
+	0%   { width: 0px;  }
+	100% { width: 60%;  }
+}
+
+p abbr {
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	text-transform: inherit;
+	font-variant: inherit;
+	font-variant-caps: inherit;
+	font-weight: normal;
+}
+
+.download {
+	text-align: right;
+}
+
+#resume .categories {
+	font: 12px/21px 'opensans-light', sans-serif;
+	color: #A1A1A1;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#resume .categories i {
+	margin-right: 8px;
+}
